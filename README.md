@@ -38,37 +38,37 @@ Import the data set and visualize the data
 #  
 ![fb](images/am1.png)
 
-* Reviews
+* Visualizing data points
 #  
 ![fb](images/am3.png)
 
-* Visualizing data points
+* Histogram (bins=5)
 #  
 ![fb](images/am4.png)
-
-Histogram (bins=5)
-#  
-![fb](images/am5.png)
 
 Transforming the data
 * Drop collumns
 * Apply Dumies at Variation Collumn
 * Add the encoded column again
 * Concatenate them together
-#  
-![fb](images/am6.png)
 
-ploting the boundary using the trained classifier
-* Run the classifier to predict the outcome on all pixels with resolution of 0.01
-* Colouring the pixels with 0 or 1
-* If classified as 0 it will be magenta, and if it is classified as 1 it will be shown in blue 
+#  
+![fb](images/am5.png)
+Training Train and Test
+
+#  
+
+![fb](images/am6.png)
+Evaluating the model
 #  
 ![fb](images/am7.png)
 
-Ploting all the actual training points
+Improve the model
+* Droping the variations and add review length as a feature
+* Apply randomforest_classifier
 #  
 ![fb](images/am8.png)
 
-Visualising the Training set results for Tran and Test
+Final Model represented by Confunsion Matrix
 #  
 ![fb](images/am9.png)
