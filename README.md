@@ -1,7 +1,7 @@
-# Amazon--AlexaDecisonTree
 
 #### Machine Learning - Decision Trees
 
+# Amazon--AlexaDecisonTree
 
 ![fb](images/am9.png)
 
@@ -45,7 +45,7 @@ Import the data set and visualize the data
 
 * With Box plot
 #  
-![fb](images/am2.png)
+![fb](images/am3.png)
 
 * With Histogram
 #  
