@@ -8,19 +8,14 @@
 
 # Background
 
-Running a targetted marketing ads on facebook. The company wants to anaylze customer behaviour by predicting which customer clicks on the advertisement. Customer data is as follows:
+Dataset consists of 3000 Amazon customer reviews, star ratings, date of review, variant and feedback of various amazon Alexa products like Alexa Echo, Echo dots.
 
-Inputs:
-
-* Name
-* e-mail
-* Country
-* Time on Facebook
-* Estimated Salary (derived from other parameters)
+* Dataset: www.kaggle.com/sid321axn/amazon-alexa-reviews
 
 
 # Goals
 
+* Discover insights into consumer reviews and perfrom sentiment analysis on the data.
 * Split the data in Train and Test
 * Train and Test the model in the data set
 * Visualize
@@ -39,23 +34,27 @@ Open Google Colab https://colab.research.google.com/
 
 Import the data set and visualize the data
 
-* With Scatter plot
+* Data set
 #  
 ![fb](images/am1.png)
 
-* With Box plot
+* Reviews
 #  
 ![fb](images/am3.png)
 
-* With Histogram
+* Visualizing data points
 #  
 ![fb](images/am4.png)
 
-Transforming the data and Executing a training Test 
+Histogram (bins=5)
 #  
 ![fb](images/am5.png)
 
-With Confusion Matrix, checking on the accuracy
+Transforming the data
+* Drop collumns
+* Apply Dumies at Variation Collumn
+* Add the encoded column again
+* Concatenate them together
 #  
 ![fb](images/am6.png)
 
