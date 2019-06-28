@@ -18,8 +18,9 @@ Dataset consists of 3000 Amazon customer reviews, star ratings, date of review, 
 * Discover insights into consumer reviews and perfrom sentiment analysis on the data.
 * Split the data in Train and Test
 * Train and Test the model in the data set
-* Visualize
-* Predict Click on the ad
+* Visualize data
+* Get best accuracy 
+
 
 
 # How to run 
